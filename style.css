@@ -1,0 +1,55 @@
+img{
+    position: absolute;
+    left: 0;
+        top:0;
+    z-index: 1;
+    
+        
+}
+h1{
+    position: relative;
+    z-index: 2;
+}
+div{
+    position: absolute;
+    
+    height: 200px;
+    width: 200px;
+}
+.BOX{
+    background-color: red;
+    left: 0;
+    top: 0;
+z-index: 3;
+}
+.BOX1{
+    background-color: blue;
+    top: 150px;
+    left:100px;
+   z-index: 4; 
+}
+.BOX2{
+    background-color: green;
+    top: 250px;
+    left:150px;
+    z-index: 5;
+}
+.overflow{
+    height: 300px;
+    width: 200px;
+    border: 3px solid green;
+    overflow-y: scroll;
+}
+
+
+/*img{
+    height: 150px;
+    width: 150px;
+    border: 2px solid purple;
+    float: right;
+}
+.left img{
+    float: 
+    right;
+}
+*/
